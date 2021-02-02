@@ -13,7 +13,7 @@ type
   { TfMain }
 
   TfMain = class(TForm)
-    lab: TLabel;
+    cbSpeed: TCheckBox;
     OpenGLControl: TOpenGLControl;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
@@ -226,11 +226,13 @@ begin
   i := 0;
   for b in List do
   begin
+
     xa[i] := b.x;
     ya[i] := b.y;
     ma[i] := b.m;
     ra[i] := b.r;
     i := i + 1;
+
   end;
 
   for b in List do
@@ -238,7 +240,7 @@ begin
     b.Solve(xa, ya, ma, ra);
   end;
 
- // if not OnOffSwitch.Checked then sleep(10);
+  if not cbSpeed.Checked then sleep(10);
 
   OpenGLControl.Invalidate;
 

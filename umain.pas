@@ -226,11 +226,13 @@ begin
   i := 0;
   for b in List do
   begin
+
     xa[i] := b.x;
     ya[i] := b.y;
     ma[i] := b.m;
     ra[i] := b.r;
     i := i + 1;
+
   end;
 
   for b in List do
