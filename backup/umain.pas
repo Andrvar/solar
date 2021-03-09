@@ -218,6 +218,8 @@ end;
 procedure TfMain.IdleFunc(Sender: TObject; var Done: Boolean);
 var
   i: integer;
+  j: integer;
+
 
 begin
 

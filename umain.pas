@@ -218,8 +218,6 @@ end;
 procedure TfMain.IdleFunc(Sender: TObject; var Done: Boolean);
 var
   i: integer;
-  j: integer;
-
 
 begin
 
@@ -245,8 +243,6 @@ begin
   if not cbSpeed.Checked then sleep(10);
 
   OpenGLControl.Invalidate;
-
-  // комментарий
 
 end;
 

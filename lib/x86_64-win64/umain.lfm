@@ -12,9 +12,9 @@ object fMain: TfMain
   LCLVersion = '2.0.10.0'
   object OpenGLControl: TOpenGLControl
     Left = 0
-    Height = 900
-    Top = 32
-    Width = 900
+    Height = 935
+    Top = 0
+    Width = 902
     Align = alClient
     OnPaint = OpenGLControlPaint
   end
