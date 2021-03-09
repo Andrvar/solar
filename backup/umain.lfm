@@ -15,7 +15,7 @@ object fMain: TfMain
     Height = 900
     Top = 32
     Width = 900
-    Anchors = [akTop, akLeft, akRight, akBottom]
+    Align = alClient
     OnPaint = OpenGLControlPaint
   end
   object cbSpeed: TCheckBox

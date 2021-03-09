@@ -244,6 +244,8 @@ begin
 
   OpenGLControl.Invalidate;
 
+  // комментарий
+
 end;
 
 end.
