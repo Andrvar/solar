@@ -240,7 +240,7 @@ begin
     b.Solve(xa, ya, ma, ra);
   end;
 
-  if not cbSpeed.Checked then sleep(100);
+  if not cbSpeed.Checked then sleep(10);
 
   OpenGLControl.Invalidate;
 

@@ -1,7 +1,7 @@
 object fMain: TfMain
-  Left = 347
+  Left = 439
   Height = 950
-  Top = 1
+  Top = 50
   Width = 902
   Caption = 'fMain'
   ClientHeight = 950
@@ -20,9 +20,9 @@ object fMain: TfMain
   end
   object cbSpeed: TCheckBox
     Left = 8
-    Height = 19
+    Height = 17
     Top = 16
-    Width = 111
+    Width = 100
     Caption = 'Быстрый режим'
     TabOrder = 1
   end
